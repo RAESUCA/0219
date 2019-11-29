@@ -1,0 +1,52 @@
+===ARBOL A===
+Raíz = A
+Ramas = B,D,C,E
+Hojas = G,H,I,F
+
+NIVELES
+0) A
+1) B,C
+2) D,E,F
+3) G,H,I
+
+Profundidad = 3
+Peso = 9
+Orden = 2
+
+Sub-árbol:E,H,I
+
+No es lleno o estricto, no todos sus nodos tienen cero o 2 hijos.
+
+No es perfecto o completo no todas las hojas están en el nivel de la profundidad.
+
+RECORRIDOS
+Pre-orden: A,B,D,G,C,E,H,I,F
+Post-orden: G,D,B,H,I,E,F,C,A
+In-orden: D,G,B,A,H,E,I,C,F
+
+===ARBOL B===
+Raíz = A
+Ramas = B,C,E,F,D,H
+Hojas = I,J,G,K,L
+
+NIVELES
+0) A
+1) B
+2) C,D
+3) E,F,G,H
+4) I,J,K,L
+
+Profundidad = 4
+Peso = 12
+Orden = 2
+
+Sub-árbol:H,K,L
+
+No es lleno o estricto, no todos sus nodos tienen cero o 2 hijos.
+
+No es perfecto o completo, no todas las hojas están en el nivel de la profundidad.
+
+RECORRIDOS
+Pre-orden: A,B,C,E,I,F,J,D,G,H,K,L
+Post-orden: I,E,F,J,C,G,K,L,H,D,B,A
+In-orden: E,I,C,F,J,B,G,D,K,H,A,L
